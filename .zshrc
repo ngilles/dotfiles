@@ -29,7 +29,7 @@ venv() {
     VENVWRAPPER_BIN=$(which virtualenvwrapper.sh)
     if [ -f $VENVWRAPPER_BIN ]; then
         echo 'loading virtualenv wrapper...'
-        . /usr/local/bin/virtualenvwrapper.sh
+        . $(which virtualenvwrapper.sh)
     else
         echo 'virtualenv wrapper not found'
     fi
