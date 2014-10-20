@@ -38,6 +38,7 @@ venv() {
 # aliases
 alias vi=vim
 alias svn-shortlog=svnll
+alias ussh="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
 
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
