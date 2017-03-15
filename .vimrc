@@ -46,6 +46,7 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set number
+set nowrap
 
 if version >= 703
     set colorcolumn=80
